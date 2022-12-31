@@ -1,1 +1,1 @@
-console.log("Hello Word!");
+const hello = 'ola';
