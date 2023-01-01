@@ -1,3 +1,7 @@
-const hello = 'ola!';
+class Person {
+  sayMayName() {
+    return 'Augusto';
+  }
+}
 
-console.log(hello);
+export default Person;
