@@ -1,1 +1,3 @@
-const hello = 'ola';
+const hello = 'ola!';
+
+console.log(hello);
