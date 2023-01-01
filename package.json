@@ -7,9 +7,9 @@
     "start:dev": "nodemon --watch 'src/' --exec ts-node src/index.ts -e ts",
     "husky:prepare": "husky install",
     "test": "jest --passWithNoTests",
-    "test:watch": "npm test --watch",
-    "test:staged": "npm test --findRelatedTests",
-    "test:push": "npm test --coverage"
+    "test:watch": "yarn test --watch",
+    "test:staged": "yarn test --findRelatedTests",
+    "test:push": "yarn test --coverage"
   },
   "author": "",
   "license": "ISC",
