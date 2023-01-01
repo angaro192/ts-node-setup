@@ -3,5 +3,4 @@ class Person {
     return 'Augusto';
   }
 }
-
 export default Person;
