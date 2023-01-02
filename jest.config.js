@@ -1,6 +1,6 @@
 module.exports = {
   roots: ['<rootDir>/src'],
-  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
+  collectCoverageFrom: ['<rootDir>/src/**/*.ts', '!<rootDir>/src/index.ts'],
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
   transform: {
@@ -8,5 +8,11 @@ module.exports = {
   },
   moduleNameMapper: {
     '@/(.*)': '<rootDir>/src/$1'
+  },
+  collectCoverage: true,
+  coverageThreshold: {
+    global: {
+      functions: 80
+    }
   }
 };
